@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<connputer>
+    <headline id="001">
+        <uc0>Ihr IT-Profi in Connewitz</uc0>
+        <uc1>angebot</uc1>
+        <uc2>willkommen</uc2>
+        <uc3>news</uc3>
+        <uf1>impressum</uf1>
+        <uf2>anfahrt</uf2>
+        <uf3>contact</uf3>
+    </headline>
+    <content>
+        <!-- Angebot -->
+        <cla1>
+            <!-- Absatz 1. -->
+            Ich bin der Inhalt mittig links. A1
+        </cla1>
+        <cla2>
+            <!-- Absatz 2. -->
+            Ich bin der Inhalt mittig links. A2
+        </cla2>
+
+        <!-- Wilkommen -->
+        <cma1>
+            <!-- Absatz 1. -->
+            Und ich stehe mitten in der Mitte. A1
+        </cma1>
+        <cma2>
+            <!-- Absatz 2. -->
+            Und ich stehe mitten in der Mitte. A2
+        </cma2>
+        <cma3>
+            <!-- Absatz 3. -->
+            Und ich stehe mitten in der Mitte. A3
+        </cma3>
+
+        <!-- News -->
+        <cra1>
+            <!--  Absatz 1. -->
+            Ich kann nur mittig rechts stehen. A1
+        </cra1>
+        <cra2>
+            <!--  Absatz 2: -->
+            Ich kann nur mittig rechts stehen. A2
+        </cra2>
+    </content>
+    <footer>
+        <cf1>
+            Mörf
+        </cf1>
+        <cf2>
+            Ümmsen
+        </cf2>
+        <cf3>
+            Schmeräh
+        </cf3>
+    </footer>
+</connputer>

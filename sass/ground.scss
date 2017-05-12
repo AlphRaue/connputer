@@ -1,0 +1,39 @@
+/*** Variablen ***/
+/** Animationen **/
+$trans: 300ms;
+$transition: $trans all;
+
+
+/** Farben **/
+/* Grautöne */
+$bord_rahm:     #969696;
+$button_back:   #383838;
+$button_bord:   #575757;
+$button_dark:   #4D4D4D;
+$button_font:   #F0FFF0;
+$button_light:  #686868;
+$font_light:    #DDDDDD;
+$higru_dark:    #424242;
+$higru_light:   #5E5E5E;
+
+/* Grüntöne */
+$bord_menue:    #22AB22;
+$conn_gruen_d:  #A2C00A;
+$conn_gruen_m:  #B9CA30;
+$conn_gruen_l:  #DDE8A6;
+
+/** Maße **/
+/* Rahmen */
+$br: 21px;
+
+/** Mixins **/
+/* Animationen */
+
+
+/* Rahmen */
+@mixin conn_rahmen_a{
+  border: thin solid $higru_light;
+  border-radius: 60px 15px 30px 15px;
+    -webkit-border-radius: 60px 15px 30px 15px;
+    -moz-border-radius: 60px 15px 30px 15px;
+}
