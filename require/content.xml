@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<connputer>
+    <headline id="001">
+        <uc0>Ihr IT-Profi in Connewitz</uc0>
+        <uc1>angebot</uc1>
+        <uc2>willkommen</uc2>
+        <uc3>news</uc3>
+        <uf1>impressum</uf1>
+        <uf2>anfahrt</uf2>
+        <uf3>contact</uf3>
+    </headline>
+    <content>
+        <!-- Angebot -->
+        <cla1>
+            <!-- Absatz 1. -->
+            <![CDATA[
+
+            ]]>
+        </cla1>
+        <cla2>
+            <!-- Absatz 2. -->
+            <![CDATA[
+
+            ]]>
+        </cla2>
+
+        <!-- Wilkommen -->
+        <cma1>
+            <!-- Absatz 1. -->
+            <![CDATA[
+            <strong>Umfassender Service für PC, Laptop, Mac und Smartphone.</strong>
+            ]]>
+        </cma1>
+        <cma2>
+            <!-- Absatz 2. -->
+            <![CDATA[
+            Beratung und Verkauf von Neu-und Gebauchtgeräten. Inzahlungnahme oder Entsorgung von Altgeräten.<br>
+            Aufbau, Umbau und Reparatur, egal ob alt oder ganz neu, für alle Marken und Systeme. Vom neuesten                   Gaming PC über Video/Audio-render Maschinen bis zum Office PC.<br>
+            Dazu bieten wir Ihnen ein umfangreiches Angebot an Peripherie, Zubehör sowie Servicedienstleistungen                in unserem Ladengeschäft und auch bei Ihnen vor Ort an.
+            ]]>
+        </cma2>
+        <cma3>
+            <!-- Absatz 3. -->
+            <![CDATA[
+            <strong>Gewerblichen Kunden bieten Wir ebenso unseren Rundumservice für Ihr Büro, Kanzlei, Studio                oder Produktionsstätte.<br><br></strong>
+            <strong>Indiviuelle Lösungen für Ihre Anforderungen.</strong>
+            <h3>Wir freuen uns auf Sie!</h3>
+            ]]>
+        </cma3>
+
+        <!-- News -->
+        <cra1>
+            <!--  Absatz 1. -->
+            <![CDATA[
+            <strong>Nur noch bis 31. Mai!</strong><br><br>
+            5 DVD's (FSK BIS 16) im Fünferpack nur
+            <h1>5.-€</h1>
+            ]]>
+        </cra1>
+        <cra2>
+            <!--  Absatz 2: -->
+            <![CDATA[
+
+            ]]>
+        </cra2>
+    </content>
+    <footer>
+        <cf1>
+            <![CDATA[
+
+            ]]>
+        </cf1>
+        <cf2>
+            <![CDATA[
+
+            ]]>
+        </cf2>
+        <cf3>
+            <![CDATA[
+
+            ]]>
+        </cf3>
+    </footer>
+</connputer>

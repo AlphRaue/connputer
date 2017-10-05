@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  background: url("../pic/fond_kachel_wabe_grau.jpg");
+  font-family: 'Raleway', sans-serif;
+  font-size: 62.5%;
+  margin-top: 20px; }
+
+body {
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  display: flex;
+  flex-direction: column;
+  height: 980px;
+  margin: auto;
+  padding: auto;
+  width: 1366px; }
+
+header {
+  background: url("../pic/header_conn.jpg") no-repeat;
+  background-size: contain;
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  display: flex;
+  height: 280px;
+  margin: 10px auto;
+  width: 98%; }
+
+li {
+  flex-basis: 25%; }
+
+main {
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  height: 560px;
+  margin: 0 auto;
+  width: 98%; }
+
+footer {
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  display: flex;
+  justify-content: center;
+  height: 140px;
+  margin: 10px auto;
+  width: 98%; }
+
+.content {
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  flex-basis: 50%; }
+
+.foo {
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  flex-basis: 25%; }
+
+.news {
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  flex-basis: 25%; }
+
+.sidebar {
+  border: thin solid black;
+  -webkit-border-radius: 30px 15px 60px 15px;
+  -moz-border-radius: 30px 15px 60px 15px;
+  border-radius: 30px 15px 60px 15px;
+  flex-basis: 25%; }
+
+.ul_menue {
+  display: flex; }
+
+.wrapper {
+  display: flex;
+  height: 100%; }
+
+/*# sourceMappingURL=flextest.css.map */

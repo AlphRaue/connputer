@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/**************************************/
+/*
+/* ConnPuter - basis.css
+/*
+/**************************************/
+/*** Variablen ***/
+/** Animationen **/
+/** Farben **/
+/* Graut├Âne */
+/* Gr├╝nt├Âne */
+/** Ma├ƒe **/
+/* Rahmen */
+/** Mixins **/
+/* Animationen */
+/* Rahmen */
+/**  ###Mediaqueries#######################################################  **/
+@media screen and (min-device-width: 280px) and (max-device-width: 480px) {
+  /* line 11, ../sass/basis.scss */
+  body > header > h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  /* line 12, ../sass/basis.scss */
+  figure {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (min-device-width: 480px) and (max-device-width: 730px) {
+  /* line 15, ../sass/basis.scss */
+  body > header > h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  /* line 16, ../sass/basis.scss */
+  figure {
+    visibility: hidden;
+  }
+}
+@media screen and (min-device-width: 730px) and (max-device-width: 768px) {
+  /* line 19, ../sass/basis.scss */
+  body > header > h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  /* line 20, ../sass/basis.scss */
+  figure {
+    visibility: visible;
+  }
+
+  /* line 21, ../sass/basis.scss */
+  figure img {
+    height: 90px;
+    width: 683px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 960px) {
+  /* line 24, ../sass/basis.scss */
+  body > header > h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  /* line 25, ../sass/basis.scss */
+  figure {
+    visibility: visible;
+  }
+
+  /* line 26, ../sass/basis.scss */
+  figure img {
+    height: 120px;
+    width: 910px;
+  }
+}
+@media screen and (min-device-width: 960px) and (max-device-width: 1900px) {
+  /* line 29, ../sass/basis.scss */
+  body > header > h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  /* line 30, ../sass/basis.scss */
+  figure {
+    visibility: visible;
+  }
+}
+/**  ######################################################################  **/
+/* line 34, ../sass/basis.scss */
+html {
+  background: #424242;
+  font-family: 'Raleway', sans-serif;
+  font-size: 62.5%;
+}
+
+/* line 39, ../sass/basis.scss */
+body {
+  background: #A2C00A linear-gradient(330deg, #DDE8A6 20%, #A2C00A 100%);
+  border: 3px solid #969696;
+  border-top: 10px solid #4D4D4D;
+  border-radius: 21px;
+  max-height: 95.0rem;
+  margin: auto;
+  padding: auto;
+  width: 136.6rem;
+}
+
+/* line 49, ../sass/basis.scss */
+body > header > figure {
+  margin: 0;
+}
+
+/* line 52, ../sass/basis.scss */
+body > header > h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0.5rem;
+  padding-right: 1.2rem;
+  text-align: right;
+  text-shadow: 0 0 3px #333;
+}
+
+/* line 61, ../sass/basis.scss */
+.opening {
+  float: right;
+  font-size: 1.5rem;
+  height: 12rem;
+  margin: -15rem 0.75rem;
+  position: relative;
+  width: 20rem;
+}
+
+/* line 69, ../sass/basis.scss */
+.opening ul li {
+  list-style: none;
+  text-align: right;
+  text-decoration: none;
+}
+
+/**  ###Gro├ƒdisplay########################################################  **/
+/* line 76, ../sass/basis.scss */
+.menue {
+  background: #383838 linear-gradient(330deg, #969696 20%, #383838 100%);
+  border: thin solid #22AB22;
+  border-radius: 60px 20px 20px 60px;
+  font-size: 2rem;
+  margin: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+  transition: 300ms all;
+}
+
+/* line 86, ../sass/basis.scss */
+.ul_menue {
+  display: inline-block;
+  padding-left: 0;
+  transition: 300ms all;
+}
+
+/* line 91, ../sass/basis.scss */
+.ul_menue li {
+  float: left;
+  list-style: none;
+  position: relative;
+  transition: 300ms all;
+}
+
+/* line 97, ../sass/basis.scss */
+.ul_menue li a {
+  background: #4D4D4D linear-gradient(330deg, #969696 20%, #383838 100%);
+  border: thin solid #575757;
+  border-radius: 30px 15px 15px 30px;
+  color: #F0FFF0;
+  display: inline-block;
+  margin: 0 -25px 0 2px;
+  min-width: 30rem;
+  padding: 2.17rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 300ms all;
+}
+
+/* line 110, ../sass/basis.scss */
+.ul_menue li a:hover {
+  background: #686868 linear-gradient(330deg, #969696 20%, #686868 100%);
+  border: thin solid #575757;
+  border-radius: 30px 15px 15px 30px;
+  color: #4D4D4D;
+}
+
+/**  ###Kleindisplay#######################################################  **/
+/* line 117, ../sass/basis.scss */
+.menue_k {
+  background: #383838 linear-gradient(330deg, #969696 20%, #383838 100%);
+  border: thin solid #22AB22;
+  border-radius: 30px 10px 10px 30px;
+  font-size: 1.5rem;
+  margin: 0.50rem;
+  padding-left: 1rem;
+  position: relative;
+  transition: 300ms all;
+}
+
+/* line 127, ../sass/basis.scss */
+.ul_menue_k {
+  display: inline-block;
+  padding-left: 0;
+  transition: 300ms all;
+}
+
+/* line 132, ../sass/basis.scss */
+.ul_menue_k li {
+  /*float: left;*/
+  list-style: none;
+  position: relative;
+  transition: 300ms all;
+}
+
+/* line 138, ../sass/basis.scss */
+.ul_menue_k li a {
+  background: #4D4D4D linear-gradient(330deg, #969696 20%, #383838 100%);
+  border: thin solid #575757;
+  border-radius: 15px 8px 8px 15px;
+  color: #F0FFF0;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0 -25px 0 2px;
+  min-width: 20rem;
+  padding: 1.9rem;
+  text-align: center;
+  text-decoration: none;
+  transition: 300ms all;
+}
+
+/**  ###Content############################################################  **/
+/* line 156, ../sass/basis.scss */
+main {
+  background: #ccc linear-gradient(330deg, #fff 20%, #ccc 100%);
+  border-right: thin solid #22AB22;
+  border-radius: 60px 15px 60px 15px;
+  clear: both;
+  font-size: 1.8rem;
+  min-height: 350px;
+  padding-top: auto;
+}
+
+/* line 165, ../sass/basis.scss */
+main p {
+  font-size: 1.3rem;
+}
+
+/* line 168, ../sass/basis.scss */
+h3 {
+  border-right: thin solid #a0a0a0;
+  border-bottom: thin solid #afafaf;
+  border-radius: 30px;
+  padding-left: 2rem;
+}
+
+/* line 174, ../sass/basis.scss */
+.sidebar {
+  border-right: thin solid forestgreen;
+  border-radius: 60px 0 60px 5px;
+  box-shadow: 1px 1px 10px silver;
+  float: left;
+  height: 320px;
+  margin: 1%;
+  overflow: hidden;
+  padding: 1%;
+  width: 18%;
+}
+
+/* line 185, ../sass/basis.scss */
+.content {
+  border-right: thin solid forestgreen;
+  border-radius: 0 0 60px 5px;
+  box-shadow: 1px 1px 10px silver;
+  float: left;
+  height: 320px;
+  margin: 1%;
+  overflow: hidden;
+  padding: 1%;
+  width: 52%;
+}
+
+/* line 196, ../sass/basis.scss */
+.news {
+  border-right: thin solid forestgreen;
+  border-radius: 0 0 60px 5px;
+  box-shadow: 1px 1px 10px silver;
+  height: 320px;
+  margin: 1%;
+  overflow: hidden;
+  padding: 1%;
+  width: 18%;
+}
+
+/**  ###Footer#############################################################  **/
+/* line 210, ../sass/basis.scss */
+footer {
+  background: #969696 linear-gradient(330deg, #969696 20%, #727272 100%);
+  border: thin solid #22ab22;
+  border-radius: 60px 15px;
+  box-shadow: 1px 1px 10px #9FBE01;
+  font-size: 1.2rem;
+  margin: 5px auto auto auto;
+  min-height: 10rem;
+  position: relative;
+}
+
+/* line 220, ../sass/basis.scss */
+.foo {
+  display: inline-block;
+  float: left;
+  height: 80%;
+  min-width: 28%;
+  padding: 2rem;
+  position: relative;
+}
+
+/* line 228, ../sass/basis.scss */
+.f-li {
+  border-right: solid 3px #9FBE01;
+  border-radius: 60px 10px 60px 10px;
+}
+
+/* line 232, ../sass/basis.scss */
+.f-mi {
+  margin: 0 1px 0 1px;
+  border-right: solid 3px #9FBE01;
+  border-radius: 60px 10px 60px 10px;
+}
+
+/* line 237, ../sass/basis.scss */
+.mittig {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 242, ../sass/basis.scss */
+.imp {
+  color: #515151;
+  font-size: 0.5rem;
+  font-weight: 100;
+  margin: 1px 5px 0 0;
+}
+
+/* line 248, ../sass/basis.scss */
+.left {
+  text-align: left;
+}
+
+/* line 251, ../sass/basis.scss */
+.right {
+  text-align: right;
+}
+
+/**  ###Helferlein#########################################################  **/
+/* line 257, ../sass/basis.scss */
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0px;
+}

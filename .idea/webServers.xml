@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d8687abe-06e8-498e-a6d5-8fa9e84247d8" name="STRATO ConnPuter" url="http://connputer.de/redirect">
+        <fileTransfer host="ssh.strato.de" port="22" rootFolder="/redirect" accessType="SFTP" password="df9cdf99df9edf93df9ddf9cdf9bdfeb" username="www.connputer.de">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" maxConnections="3" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

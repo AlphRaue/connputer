@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/redirect/css" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/js" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/php" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/pic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/require" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/sass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/sites" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/txt" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/redirect/.sass-cache" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

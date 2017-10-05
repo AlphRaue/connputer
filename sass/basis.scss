@@ -1,0 +1,235 @@
+/**************************************/
+/*
+/* ConnPuter - basis.css
+/*
+/**************************************/
+
+@import 'ground';
+
+/**  ###Mediaqueries#######################################################  **/
+@media screen and(min-width: 280px) and (max-width: 480px){
+  body>header>h1{font-size: 2rem;text-align: left;}
+  figure{display: none; visibility: hidden;}
+}
+@media screen and(min-width: 480px) and (max-width: 730px){
+  body>header>h1{font-size: 2rem;text-align: left;}
+  figure{visibility: hidden;}
+}
+@media screen and(min-width: 730px) and (max-width: 768px){
+  body>header>h1{font-size: 2rem;text-align: left;}
+  figure{visibility: visible;}
+  figure img{height: 90px; width: 683px;}
+}
+@media screen and(min-width: 768px) and (max-width: 960px){
+  body>header>h1{font-size: 2rem;text-align: left;}
+  figure{visibility: visible;}
+  figure img{height: 120px; width: 910px;}
+}
+@media screen and(min-width: 960px) and (max-width: 1900px){
+  body>header>h1{font-size: 2rem;text-align: left;}
+  figure{visibility: visible;}
+}
+
+/**  ###Basics#############################################################  **/
+html {
+  background: $higru_dark;
+  font-family: 'Raleway', sans-serif;
+  font-size: 62.5%;
+}
+body{
+  background: $conn_gruen_d linear-gradient(330deg, $conn_gruen_l 20%, $conn_gruen_d 100%);
+  border: 3px solid $bord_rahm;
+  border-top: 10px solid $button_dark;
+  border-radius: $br;
+  max-height: 100.0rem;
+  margin: auto;
+  padding: auto;
+  width: 136.6rem;
+}
+body>header>figure{
+  margin: 0;
+}
+body>header>h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0.5rem;
+    padding-right: 1.2rem;
+    text-align: right;
+    text-shadow: 0 0 3px #333;
+  }
+  .opening{
+    float: right;
+    font-size: 1.5rem;
+    height: 12rem;
+    margin: -17rem 0.75rem;
+    position: relative;
+    width: 40rem;
+  }
+  .opening ul li{
+    list-style: none;
+    text-align: right;
+    text-decoration: none;
+  }
+
+/**  ###Großdisplay########################################################  **/
+.menue{
+	background: $button_back linear-gradient(330deg, $bord_rahm 20%, $button_back 100%);
+	border: thin solid $bord_menue;
+	border-radius: 60px 20px 20px 60px;
+	font-size: 2rem;
+	margin: 0.75rem;
+    padding-left: 1.5rem;
+	position: relative;
+	transition: 300ms all;
+}
+.ul_menue{
+	display: inline-block;
+	padding-left: 0;
+	transition: 300ms all;
+}
+.ul_menue li{
+	float: left;
+	list-style: none;
+	position: relative;
+	transition: 300ms all;
+}
+.ul_menue li a{
+	background: $button_dark linear-gradient(330deg, $bord_rahm 20%, $button_back 100%);
+	border: thin solid $button_bord;
+	border-radius: 30px 15px 15px 30px;
+	color: $button_font;
+	display: inline-block;
+	margin: 0 -25px 0 2px;
+	min-width: 30rem;
+	padding: 2.17rem;
+	text-align: center;
+	text-decoration: none;
+	transition: 300ms all;
+}
+.ul_menue li a:hover{
+  background: $button_light linear-gradient(330deg, $bord_rahm 20%, $button_light 100%);
+  border: thin solid $button_bord;
+  border-radius: 30px 15px 15px 30px;
+  color: $button_dark;
+}
+
+
+/**  ###Content############################################################  **/
+
+main{
+	background: #ccc linear-gradient(330deg, #fff 20%, #ccc 100%);
+	border-right: thin solid $bord_menue;
+	border-radius: 60px 15px 60px 15px;
+	clear: both;
+	font-size: 1.8rem;
+	min-height: 420px;
+	padding-top: auto;
+}
+main p{
+	font-size: 1.3rem;
+}
+h3{
+	border-right: thin solid #a0a0a0;
+	border-bottom: thin solid #afafaf;
+	border-radius: 30px;
+	padding-left: 2rem;
+}
+.sidebar{
+	border-right: thin solid forestgreen;
+	border-radius: 60px 0 60px 5px;
+	box-shadow: 1px 1px 10px silver;
+	float: left;
+	height: 420px;
+	margin: 1%;
+	overflow: hidden;
+	padding: 1%;
+	width: 18%;
+}
+.content{
+	border-right: thin solid forestgreen;
+	border-radius: 0 0 60px 5px;
+	box-shadow: 1px 1px 10px silver;
+	float: left;
+	height: 420px;
+	margin: 1%;
+	overflow: hidden;
+	padding: 1%;
+	width: 52%;
+}
+.content .icons{
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+main img{
+	margin: 10px 20px 0 0;
+}
+.news{
+	border-right: thin solid forestgreen;
+	border-radius: 0 0 60px 5px;
+	box-shadow: 1px 1px 10px silver;
+	height: 420px;
+	margin: 1%;
+	overflow: hidden;
+	padding: 1%;
+	width: 18%
+}
+.news figure{
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+}
+
+/**  ###Footer#############################################################  **/
+
+footer{
+	background: #969696 linear-gradient(330deg, #969696 20%, #727272 100%);
+	border: thin solid #22ab22;
+	border-radius: 60px 15px;
+	box-shadow: 1px 1px 10px #9FBE01;
+	display: flex;
+	font-size: 1.2rem;
+	justify-content: center;
+	margin: 5px auto auto auto;
+	min-height: 10rem;
+	position: relative;
+}
+.foo{
+	height: 80%;
+	min-width: 28%;
+	padding: 2rem;
+}
+.f-li{
+	border-right: solid 3px #9FBE01;
+	border-radius: 60px 10px 60px 10px;
+}
+.f-mi{
+	margin: 0 1px 0 1px;
+	border-right: solid 3px #9FBE01;
+	border-radius: 60px 10px 60px 10px;
+}
+.mittig{
+
+}
+.imp{
+	color: #515151;
+	font-size: 0.5rem;
+	font-weight: 100;
+	margin: 1px 5px 0 0;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+
+/**  ###Helferlein#########################################################  **/
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0px;
+}

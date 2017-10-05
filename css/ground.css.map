@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,mBAAmB;AACnB,cAAc;AACd,eAAe;AAQf,gBAAgB;AAOhB,aAAa;AACb,YAAY;AAGZ,cAAc;AACd,YAAY",
+"sources": ["../sass/ground.scss"],
+"names": [],
+"file": "ground.css"
+}
