@@ -13,6 +13,7 @@
         <!-- Angebot -->
         <cla1>
             <!-- Absatz 1. -->
+<<<<<<< HEAD
             <![CDATA[
 
             ]]>
@@ -22,11 +23,19 @@
             <![CDATA[
 
             ]]>
+=======
+            Ich bin der Inhalt mittig links. A1
+        </cla1>
+        <cla2>
+            <!-- Absatz 2. -->
+            Ich bin der Inhalt mittig links. A2
+>>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
         </cla2>
 
         <!-- Wilkommen -->
         <cma1>
             <!-- Absatz 1. -->
+<<<<<<< HEAD
             <![CDATA[
             <strong>Umfassender Service für PC, Laptop, Mac und Smartphone.</strong>
             ]]>
@@ -46,11 +55,23 @@
             <strong>Indiviuelle Lösungen für Ihre Anforderungen.</strong>
             <h3>Wir freuen uns auf Sie!</h3>
             ]]>
+=======
+            Und ich stehe mitten in der Mitte. A1
+        </cma1>
+        <cma2>
+            <!-- Absatz 2. -->
+            Und ich stehe mitten in der Mitte. A2
+        </cma2>
+        <cma3>
+            <!-- Absatz 3. -->
+            Und ich stehe mitten in der Mitte. A3
+>>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
         </cma3>
 
         <!-- News -->
         <cra1>
             <!--  Absatz 1. -->
+<<<<<<< HEAD
             <![CDATA[
             <strong>Nur noch bis 31. Mai!</strong><br><br>
             5 DVD's (FSK BIS 16) im Fünferpack nur
@@ -62,10 +83,18 @@
             <![CDATA[
 
             ]]>
+=======
+            Ich kann nur mittig rechts stehen. A1
+        </cra1>
+        <cra2>
+            <!--  Absatz 2: -->
+            Ich kann nur mittig rechts stehen. A2
+>>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
         </cra2>
     </content>
     <footer>
         <cf1>
+<<<<<<< HEAD
             <![CDATA[
 
             ]]>
@@ -79,6 +108,15 @@
             <![CDATA[
 
             ]]>
+=======
+            Mörf
+        </cf1>
+        <cf2>
+            Ümmsen
+        </cf2>
+        <cf3>
+            Schmeräh
+>>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
         </cf3>
     </footer>
 </connputer>

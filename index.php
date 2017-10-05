@@ -18,10 +18,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- linking -->
-<!--        <link href="css/normalize.css" rel="stylesheet">-->
+        <link href="css/normalize.css" rel="stylesheet">
         <link href="css/animate.css" rel="stylesheet">
-        <!--<link href="sass/flextest.css" rel="stylesheet">-->
-        <!--<link href="css/basis.css" rel="stylesheet">-->
+        <link href="css/basis.css" rel="stylesheet" >
         <link href="sass/basis.css" rel="stylesheet">
         <!-- scripting -->
         <script type="text/javascript" src="js/jquery-3.2.1.js.min.js"></script>
@@ -35,8 +34,11 @@
     <!-- ###Header########################################################## -->
     <!-- Kopflogo, Titel, Öffnungszeiten und Navbar Schmeräh -->
         <header>
-            <img src="pic/header_conn.jpg" height="180" width="1366" alt="logo">
             <h1 class="animated fadeInLeftBig"><?php echo $u0; ?></h1>
+            <figure>
+                <img src="pic/header_conn.jpg" width="1366" height="180" alt="Webseitenlogo von ConnPuter.de">
+                <figcaption></figcaption>
+            </figure>
             <div class="opening animated rotateIn">
                 <ul class="ul_opening">öffnungszeiten:
                     <li>montag: 10-18 Uhr</li>
@@ -60,21 +62,17 @@
     <!-- ###Main############################################################ -->
     <!-- Alles was mit content zu tun hat -->
         <main>
-            <div class="wrapper">
-                
+            <div class="wrapper mittig">
                 <div class="sidebar"><h3><?php echo $u1; ?></h3>
-                    <section>
-                        <p><!-- erster absatz sidebar -->
-                            <?php echo $c0; ?>
-                        </p>
-                        <p><!-- erster absatz sidebar -->
-                            <?php echo $c1; ?>
-                        </p>
-                    </section>
-
+                    <p><!-- erster absatz sidebar -->
+                        <?php echo $c0; ?>
+                    </p>
+                    <p><!-- erster absatz sidebar -->
+                        <?php echo $c1; ?>
+                    </p>
                 </div>
                 <div class="content"><h3><?php echo $u2; ?></h3>
-                    <section>
+                    <div>
                         <p><!-- erster absatz willkommen -->
                             <?php echo $c2; ?>
                         </p>
@@ -84,7 +82,7 @@
                         <p><!-- dritter absatz willkommen -->
                             <?php echo $c4; ?>
                         </p>
-                    </section>
+                    </div>
                     <div class="icons">
                         <img src="pic/com.jpg" width="80" height="80"
                                  alt="logo">
@@ -96,7 +94,7 @@
                              alt="logo">
                     </div>
                 </div>
-                <div class="news"><h3><?php echo $u3; ?></h3>
+                <div class="news clearfix"><h3><?php echo $u3; ?></h3>
                     <p><!-- erster absatz news -->
                         <?php echo $c5; ?>
                     </p>
@@ -111,11 +109,9 @@
     <!-- ###Footer########################################################## -->
     <!-- Notwendigkeiten Seitenende -->
         <footer>
+            <div class="mittig">
                 <div class="foo f-li"><h3><?php echo $u4; ?></h3>
                     <p><?php echo $f1; ?></p>
-                </div>
-                <div class="foo f-mi"><h3><?php echo $u5; ?></h3>
-                    <p><?php echo $f2; ?></p>
                 </div>
                 <div class="foo f-mi"><h3><?php echo $u5; ?></h3>
                     <p><?php echo $f2; ?></p>
@@ -123,6 +119,7 @@
                 <div class="foo f-re"><h3><?php echo $u6; ?></h3>
                     <p><?php echo $f3; ?></p>
                 </div>
+            </div>
         </footer>
     <div class="imp left">&copy;&reg; BWGL - BitWiseGroup Leipzig 26.04.2017
         <p class="right"><script> ZeitLM(); </script></p></div>
