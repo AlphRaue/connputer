@@ -7,7 +7,7 @@
  */
 ?>
 <?php
-    include_once 'php/content.php';
+    include_once "php/content.php";
 ?>
 <!-- here we go... -->
 <!DOCTYPE html>
@@ -52,9 +52,9 @@
             </div>
             <nav class="menue">
                 <ul class="ul_menue">
-                    <li><a href="http://www.connputer.de/www.connputer.de">ConnPuter - Der Laden</a></li>
-                    <li><a href="http://www.connputer-shop.de">ConnPuter - Der Onlineshop</a></li>
-                    <li><a href="http://www.connputer.de/www.digitalisierung-leipzig.de">Digitalisierung</a></li>
+                    <li><a href="http://www.connputer.de/www.connputer.de" target="_blank">ConnPuter - Der Laden</a></li>
+                    <li><a href="http://www.connputer-shop.de" target="_blank">ConnPuter - Der Onlineshop</a></li>
+                    <li><a href="http://www.connputer.de/www.digitalisierung-leipzig.de" target="_blank">Digitalisierung</a></li>
                     <li><a href="#">Service</a></li>
                 </ul>
             </nav>
@@ -64,24 +64,50 @@
         <main>
             <div class="wrapper mittig">
                 <div class="sidebar"><h3><?php echo $u1; ?></h3>
-                    <p><!-- erster absatz sidebar -->
                         <?php echo $c0; ?>
-                    </p>
-                    <p><!-- erster absatz sidebar -->
                         <?php echo $c1; ?>
-                    </p>
+                    <div class="content_pic">
+                        <?php
+                        $verzeichnis = "pic/comercials/";
+                        $tempo = 5000;
+                        echo "<div style='text-align: center;'><img id='pic' src='#'></div>
+
+                            <script type='text/javascript'>
+                                var bild = new Array();
+                                var i = 0;
+                                ";
+
+                        $ordner = openDir($verzeichnis);
+                        $zaehler = 0;
+                        while ($file = readDir($ordner)) {
+                            if($file != "." && $file != "..") {
+                                echo "bild[$zaehler]='$verzeichnis$file';\n";
+                                $zaehler++;
+                            }
+                        }
+                        closeDir($ordner);
+
+                        echo "function anzeigen() {
+                        if (i < bild.length) {
+                            document.getElementById('pic').src=bild[i];
+                            i++;
+                        }
+                        else {
+                            i = 0;
+                        }
+                        setTimeout('anzeigen()', $tempo);
+                    }
+                    anzeigen();
+                    </script>
+                    ";
+                        ?>
+                    </div>
                 </div>
                 <div class="content"><h3><?php echo $u2; ?></h3>
                     <div>
-                        <p><!-- erster absatz willkommen -->
                             <?php echo $c2; ?>
-                        </p>
-                        <p><!-- zweiter absatz willkommen -->
                             <?php echo $c3; ?>
-                        </p>
-                        <p><!-- dritter absatz willkommen -->
                             <?php echo $c4; ?>
-                        </p>
                     </div>
                     <div class="icons">
                         <img src="pic/com.jpg" width="80" height="80"
@@ -95,12 +121,8 @@
                     </div>
                 </div>
                 <div class="news clearfix"><h3><?php echo $u3; ?></h3>
-                    <p><!-- erster absatz news -->
-                        <?php echo $c5; ?>
-                    </p>
-                    <p><!-- erster absatz news -->
-                        <?php echo $c6; ?>
-                    </p>
+                    <?php echo $c5; ?>
+                    <?php echo $c6; ?>
                     <figure><img src="pic/dhl_small.jpg" width="200"
                                  height="69" alt="DHL Logo klein"</figure>
                 </div>
@@ -121,7 +143,7 @@
                 </div>
             </div>
         </footer>
-    <div class="imp left">&copy;&reg; BWGL - BitWiseGroup Leipzig 26.04.2017
+    <div class="imp left">&copy;&reg; BWGL - BitWiseGroup Leipzig 06.10.2017
         <p class="right"><script> ZeitLM(); </script></p></div>
     </body>
 </html>

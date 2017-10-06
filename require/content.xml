@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <connputer>
+
     <headline id="001">
         <uc0>Ihr IT-Profi in Connewitz</uc0>
         <uc1>angebot</uc1>
@@ -9,73 +11,60 @@
         <uf2>anfahrt</uf2>
         <uf3>contact</uf3>
     </headline>
+
     <content>
         <!-- Angebot -->
         <cla1>
             <!-- Absatz 1. -->
-<<<<<<< HEAD
             <![CDATA[
-
+                Mangels anderer Bilder,</br>
             ]]>
         </cla1>
         <cla2>
             <!-- Absatz 2. -->
             <![CDATA[
-
+                gibts hier momentan was auf die Blume:</br>
             ]]>
-=======
-            Ich bin der Inhalt mittig links. A1
-        </cla1>
-        <cla2>
-            <!-- Absatz 2. -->
-            Ich bin der Inhalt mittig links. A2
->>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
         </cla2>
 
         <!-- Wilkommen -->
         <cma1>
             <!-- Absatz 1. -->
-<<<<<<< HEAD
             <![CDATA[
-            <strong>Umfassender Service für PC, Laptop, Mac und Smartphone.</strong>
+            <strong>Umfassender Service für PC, Laptop, Mac und Smartphone.</strong></br>
             ]]>
         </cma1>
         <cma2>
             <!-- Absatz 2. -->
             <![CDATA[
             Beratung und Verkauf von Neu-und Gebauchtgeräten. Inzahlungnahme oder Entsorgung von Altgeräten.<br>
-            Aufbau, Umbau und Reparatur, egal ob alt oder ganz neu, für alle Marken und Systeme. Vom neuesten                   Gaming PC über Video/Audio-render Maschinen bis zum Office PC.<br>
-            Dazu bieten wir Ihnen ein umfangreiches Angebot an Peripherie, Zubehör sowie Servicedienstleistungen                in unserem Ladengeschäft und auch bei Ihnen vor Ort an.
+            Aufbau, Umbau und Reparatur, egal ob alt oder ganz neu, für alle Marken und Systeme.
+            Vom neuesten Gaming PC über Video/Audio-render Maschinen bis zum Office PC.<br>
+            Dazu bieten wir Ihnen ein umfangreiches Angebot an Peripherie, Zubehör sowie Servicedienstleistungen
+            in unserem Ladengeschäft und auch bei Ihnen vor Ort an.
             ]]>
         </cma2>
-        <cma3>
             <!-- Absatz 3. -->
             <![CDATA[
-            <strong>Gewerblichen Kunden bieten Wir ebenso unseren Rundumservice für Ihr Büro, Kanzlei, Studio                oder Produktionsstätte.<br><br></strong>
+            <strong>Gewerblichen Kunden bieten Wir ebenso unseren Rundumservice für Ihr Büro, Kanzlei, Studio
+            oder Produktionsstätte.<br><br></strong>
             <strong>Indiviuelle Lösungen für Ihre Anforderungen.</strong>
             <h3>Wir freuen uns auf Sie!</h3>
             ]]>
-=======
-            Und ich stehe mitten in der Mitte. A1
-        </cma1>
         <cma2>
             <!-- Absatz 2. -->
-            Und ich stehe mitten in der Mitte. A2
         </cma2>
         <cma3>
             <!-- Absatz 3. -->
-            Und ich stehe mitten in der Mitte. A3
->>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
         </cma3>
 
         <!-- News -->
         <cra1>
             <!--  Absatz 1. -->
-<<<<<<< HEAD
             <![CDATA[
-            <strong>Nur noch bis 31. Mai!</strong><br><br>
+            <strong>Nur noch bis 31. Oktober!</strong><br><br>
             5 DVD's (FSK BIS 16) im Fünferpack nur
-            <h1>5.-€</h1>
+            <h1>10.-€</h1>
             ]]>
         </cra1>
         <cra2>
@@ -83,40 +72,20 @@
             <![CDATA[
 
             ]]>
-=======
-            Ich kann nur mittig rechts stehen. A1
-        </cra1>
-        <cra2>
-            <!--  Absatz 2: -->
-            Ich kann nur mittig rechts stehen. A2
->>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
+            Auch im Angebot: BlueRay!
         </cra2>
     </content>
+
     <footer>
         <cf1>
-<<<<<<< HEAD
-            <![CDATA[
-
-            ]]>
+            Wen...
         </cf1>
         <cf2>
-            <![CDATA[
-
-            ]]>
+            ...finde ich wo...
         </cf2>
         <cf3>
-            <![CDATA[
-
-            ]]>
-=======
-            Mörf
-        </cf1>
-        <cf2>
-            Ümmsen
-        </cf2>
-        <cf3>
-            Schmeräh
->>>>>>> a84a0d9411b86a4363715cb82ddf49de443f737b
+            ...und wie erreiche ich ihn?
         </cf3>
     </footer>
+
 </connputer>

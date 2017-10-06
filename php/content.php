@@ -6,7 +6,7 @@
  * Time: 15:12
  */
 
-$content = 'require/content.xml';
+$content = "require/content.xml";
 
 if(file_exists($content)){
     $content = simplexml_load_file($content);

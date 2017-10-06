@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="STRATO ConnPuter" stopOnFirstError="true" deleteMissingItems="true" createEmptyFolders="true" traceLevel="DETAILS" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="STRATO ConnPuter" stopOnFirstError="true" deleteMissingItems="true" createEmptyFolders="true" traceLevel="DETAILS" uploadOnCheckin="d8687abe-06e8-498e-a6d5-8fa9e84247d8" autoUploadExternalChanges="true">
     <serverData>
       <paths name="STRATO ConnPuter">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="STRATO ConnPuter" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>
